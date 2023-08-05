@@ -5,9 +5,9 @@ function Score(props) {
   console.log(props.student); 
 
   return (
-    <div>
+    <div className = "score">
         <p>Date: {props.student.date}</p>
-        <p>Score: {props.student.score}</p>
+        <p id="scoreSpacing">Score: &nbsp; &nbsp;<b>{props.student.score}</b></p>
     </div>
   )
 }

@@ -13,11 +13,13 @@ function App() {
 
   return (
     <div className="App">
+      <div className="wrapStud">
         {students.map((current, i)=>{
         return (
           <Student key={i} student={current}/>
         )
         },[])}
+      </div>
     </div>
   );
 }
