@@ -5,7 +5,7 @@ import Student from './components/Student';
 
 function App() {
 
-  // let { studentState, setStudentState } = useState({students:students})
+  let { studentState, setStudentState } = useState({students:students})
 
   // console.log(students.map(({ name }) => name)); 
   // console.log(students.map(current, i)); 
